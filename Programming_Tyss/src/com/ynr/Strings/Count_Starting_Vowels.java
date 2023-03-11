@@ -9,8 +9,7 @@ public class Count_Starting_Vowels {
 	      String s=sc.nextLine();
 	      
 	    //  char[] ch=s.toCharArray();
-	      
-	      
+	       
 	      String[] s1=s.split(" ");
 	      int count=0;
 	      
@@ -18,10 +17,7 @@ public class Count_Starting_Vowels {
 	    		   char[] ch=s1[j].toCharArray();
 	    		  if(ch[0]=='a'||ch[0]=='e'||ch[0]=='i'||ch[0]=='o'||ch[0]=='u') {
 	    			  count++;
-	    		  }else {
-	    			  
-	    		  }
-	    		  
+	    		  }  
 	    	  }
 	      
 	      System.out.println(count);

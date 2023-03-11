@@ -3,7 +3,7 @@ package com.ynr.Strings;
 public class Count_eachChars {
 
 	public static void main(String[] args) {
-		String s1="hello";
+		String s1="helloh";
 	      char c;
 	      String s2="";  
 	      
