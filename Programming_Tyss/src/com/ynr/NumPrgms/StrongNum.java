@@ -1,4 +1,4 @@
- package com.ynr.NumPrgms;
+  package com.ynr.NumPrgms;
 
 import java.util.Scanner;
 

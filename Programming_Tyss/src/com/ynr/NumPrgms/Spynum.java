@@ -20,9 +20,9 @@ public class Spynum {
      System.out.println(sum+" Sum");
      System.out.println(pro+" Product");
      if(sum==pro) {
-    	 System.out.println("It is spy number");
+    	 System.out.println("-It is spy number");
      }else {
-    	 System.out.println("not a spy number");
+    	 System.out.println("-Not a spy number");
      }
 	}
 

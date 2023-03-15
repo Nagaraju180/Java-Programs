@@ -1,6 +1,7 @@
 package com.ynr.Collections;
 
 import java.util.ArrayDeque;
+import java.util.Iterator;
 
 public class DeQueueDemo {
 
@@ -16,6 +17,21 @@ public class DeQueueDemo {
 	      q.add(10);
 //	      q.add(null);
 	      System.out.println(q);
+	      Iterator<DeQueueDemo> itr=q.iterator();
+	      int key=20;
+	      while(itr.hasNext())
+	      {
+	    	  DeQueueDemo ele=itr.next();
+	    	  if(ele.equals(itr))
+	    	  {
+	    		  System.out.println(ele);
+	    		  break;
+	    	  }
+	    	  //System.out.println(itr.next());
+	      }
+	}
+	
+	      
 	}
 
-}
+

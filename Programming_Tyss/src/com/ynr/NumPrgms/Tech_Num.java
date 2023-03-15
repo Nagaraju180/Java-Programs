@@ -17,7 +17,7 @@ public class Tech_Num {
 	       }
 	      int d=1;
 	        for(int i=1;i<=count;i++) {//power
-	    	  d*=10;  
+	    	  d*=i;  
 	        }
 	      if(count%2==0) {   //if even then splitting
 	    	  int of=count/2;
