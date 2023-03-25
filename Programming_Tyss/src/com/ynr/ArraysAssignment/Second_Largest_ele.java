@@ -3,7 +3,7 @@ package com.ynr.ArraysAssignment;
 public class Second_Largest_ele {
 
 	public static void main(String[] args) {
-      int[] a= {9,4,7,2,8,};
+      int[] a= {4,9,7,2,8,};
       int max=a[0];
       int secmax=a[1];
       
