@@ -3,7 +3,8 @@ package com.ynr.Strings;
 public class Panagram$ {
 
 	public static void main(String[] args) {
-      String x="qwertyuiosdfghjkxcvbnm";
+      String x="qwertyuiopasdfghjklzxcvbnm";
+      x=x.toUpperCase();
       int[] a=new int[26];
       char[] y=x.toCharArray();
       

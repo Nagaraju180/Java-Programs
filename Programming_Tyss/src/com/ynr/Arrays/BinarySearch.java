@@ -18,6 +18,7 @@ public class BinarySearch {
     	   mid=(low+high)/2;
     	   if(key==a[mid]) {
     		   flag=true;
+//    		   System.out.println("Found in index="+mid);
     		   break;
     	   }
     	   else if(key>a[mid]) {
